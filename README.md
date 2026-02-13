@@ -38,6 +38,7 @@ El proyecto sigue el patrón *MVC*:
 - Sistema de usuarios y roles
 
 ## Configuración de la base de datos
+
 1. Crear la base de datos:
 ```sql
 CREATE DATABASE sistema_ventas;
@@ -46,12 +47,20 @@ CREATE DATABASE sistema_ventas;
 CREATE USER 'ventas_user'@'localhost' IDENTIFIED BY 'ventas123';
 GRANT ALL PRIVILEGES ON sistema_ventas.* TO 'ventas_user'@'localhost';
 FLUSH PRIVILEGES;
+  
 
 3. Configurar la clase Conexión.javacon los datos locales
 
-## Autor
+
+  ## Autor
+
 ## Yony Alexander Huertas
+
 Tecnólogo en Análisis y desarrollo de Software
 
+
 ## Licencia
+
 Este proyecto se desarrolla con fines educativos y de protafolio
+
+
